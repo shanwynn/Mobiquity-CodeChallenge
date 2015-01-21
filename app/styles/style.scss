@@ -1,0 +1,286 @@
+$icon-font-path: "../styles/fonts/"; // Change the path to the fonts
+$banner-font: 'Titillium Web', sans-serif;
+$section-head-font: 'Cabin', sans-serif;
+@import "bootstrap-sass-official/vendor/assets/stylesheets/bootstrap";
+
+/* Put your CSS here */
+html, body {
+    margin: 30px 0;
+    background: url("../images/")no-repeat center fixed;
+    background-size: cover;
+    background-height: 100%;
+    background-width: auto;
+}
+
+#banner {
+  margin-top: -60px;
+  padding-bottom: 60px;
+  background: url("../images/")no-repeat center;
+  background-size: cover;
+  background-height: 500px;
+  background-width: auto;
+  font-family: $banner-font;
+  font-size: 5em;
+  color: #2D0080;
+  text-align: center;
+}
+
+#calendar {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 10%;
+}
+
+h2 {
+  margin-top: -55px;
+  font-family: $section-head-font;
+  font-size: 2.5em;
+  text-align: center;
+  color: #857F83;
+}
+
+h3 {
+  margin-left: 20px;
+  font-size: 1.25em;
+}
+
+h4 {
+  margin: 10px 30px 10px 100px;
+  font-weight: normal;
+}
+
+p {
+  font-size: 2em;
+  text-align: center;
+  margin: 60px auto 0 auto;
+  width: 60%;
+  border-radius: 6px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.60);
+}
+
+
+article {
+  margin: 20px auto 20px auto;
+  width: 90%;
+  padding: 20px;
+  padding-bottom: 20px;
+}
+
+.section-title {
+  font-family: $section-head-font;
+  font-size: 2.25em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #857F83;
+  margin: 20px auto 0 auto;
+  text-shadow: none;
+}
+
+.text-output {
+  font-size: 1.75em;
+  margin: 0 auto 0 auto;
+  width: 80%;
+}
+
+.add-form {
+  margin-left: -5px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.form-group {
+  margin-left: 10px;
+  margin-top: 30px;
+  width: 90%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  height: auto;
+  padding: 10px;
+}
+
+.btn-primary {
+  margin-top: 5px;
+  background-color: #10206F;
+  border: #10206F;
+  color: #fff;
+  font-size: 1em;
+}
+
+.btn-primary:hover {
+  margin-top: 5px;
+  background-color: #2845D2;
+  border: #2845D2;
+  color: #fff;
+  font-size: 1em;
+}
+
+.header-btn {
+  margin-top: -3px;
+  font-size: .75em;
+}
+
+.header-btn:hover {
+  margin-top: -3px;
+  font-size: .75em;
+}
+
+.btn-danger {
+  margin-top: 5px;
+  background-color: #930C0A;
+  border: #930C0A;
+  font-size: 1em;
+}
+
+.btn-danger:hover {
+  margin-top: 5px;
+  background-color: #6E0012;
+  border: #930C0A;
+  font-size: 1em;
+}
+
+.nav-bkgd {
+  width: 100%;
+  height: 35px;
+  float: left;
+  margin: -3px -5px 0 0;
+  list-style: none;
+  background-color: #000;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  text-align: center;
+}
+
+.navbar {
+  display: inline-block;
+  padding: 0 3% 0 2.5%;
+  list-style: none;
+  font-family: $section-head-font;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  color: #EDE5F0;
+}
+
+.navbar a {
+  display: inline-block;
+  list-style: none;
+  font-family: $section-head-font;
+  font-size: 1.0em;
+  font-weight: bold;
+  text-align: center;
+  color: #EDE5F0;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  display: inline-block;
+  list-style: none;
+  font-family: $section-head-font;
+  font-size: 1.0em;
+  font-weight: bold;
+  text-align: center;
+  color: #86E2FF;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #720024;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #545351;
+}
+
+footer {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 400px;
+  position: relative;
+  width: 100%;
+  height: 30px;
+}
+
+/* Media Queries */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+  body {
+    font-size: .75em;
+  }
+
+  #banner {
+    width: 100%;
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 1em;
+  }
+
+  p {
+    font-size: .75em;
+  }
+
+  .navbar {
+    width: 100%;
+    display: inline-block;
+    float: left;
+    margin: 0 0 0 0;
+    list-style: none;
+    font-family: Candara, Optima;
+    font-size: .5em;
+    font-weight: bold;
+    text-align: center;
+    color: #EDE5F0;
+  }
+
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+
+  #banner {
+    width: 100%;
+    font-size: 5em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  .navbar {
+    width: 100%;
+    display: inline-block;
+    float: left;
+    margin: 5px 5px 0 5px;
+    list-style: none;
+    font-family: Candara, Optima;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    color: #EDE5F0;
+  }
+
+
+}

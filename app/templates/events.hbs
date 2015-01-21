@@ -1,0 +1,14 @@
+<p>{{link-to "New Entry" "new_event" class='btn btn-primary header-btn'}}</p>
+
+<article>
+  <h2 class="section-title">Calendar</h2>
+  {{#each}}
+  <div class='wrapper'>
+    <h2 class='entry-title'>{{eventTitle}}</h2>
+    <h3>Event Date and Time: {{formattedEvent}}</h3>
+    <h3>{{eventPost}}</h3>
+
+    <h3>{{link-to 'Edit' 'edit_event' this class='edit-link' classNames='btn btn-default'}}</h3>
+  </div>
+  {{/each}}
+</article>
