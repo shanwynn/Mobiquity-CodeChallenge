@@ -14,6 +14,7 @@ html, body {
 #banner {
   margin-top: -60px;
   padding-bottom: 60px;
+  background-image: radial-gradient(ellipse farthest-corner at 45px 45px , #00FFFF 0%, rgba(0, 0, 255, 0) 50%, #0000FF 95%);
   background-size: cover;
   background-height: 500px;
   background-width: auto;
@@ -69,7 +70,7 @@ article {
 }
 
 .wrapper {
-  padding-bottom: 70px;
+  padding-bottom: 100px;
 }
 
 .section-title {
@@ -199,6 +200,10 @@ a {
 a:hover {
   text-decoration: none;
   color: #545351;
+}
+
+#home {
+  margin-left: -2.5%;
 }
 
 footer {
