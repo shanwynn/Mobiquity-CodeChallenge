@@ -6,7 +6,6 @@ $section-head-font: 'Cabin', sans-serif;
 /* Put your CSS here */
 html, body {
     margin: 30px 0;
-    background: url("../images/")no-repeat center fixed;
     background-size: cover;
     background-height: 100%;
     background-width: auto;
@@ -15,7 +14,6 @@ html, body {
 #banner {
   margin-top: -60px;
   padding-bottom: 60px;
-  background: url("../images/")no-repeat center;
   background-size: cover;
   background-height: 500px;
   background-width: auto;
@@ -55,10 +53,9 @@ p {
   font-size: 2em;
   text-align: center;
   margin: 60px auto 0 auto;
-  width: 60%;
+  width: 80%;
   border-radius: 6px;
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.60);
 }
 
 
@@ -95,15 +92,6 @@ article {
   margin-left: 10px;
   margin-top: 30px;
   width: 90%;
-}
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 350px;
-  height: auto;
-  padding: 10px;
 }
 
 .btn-primary {
@@ -234,21 +222,6 @@ and (max-device-width : 480px) {
   p {
     font-size: .75em;
   }
-
-  .navbar {
-    width: 100%;
-    display: inline-block;
-    float: left;
-    margin: 0 0 0 0;
-    list-style: none;
-    font-family: Candara, Optima;
-    font-size: .5em;
-    font-weight: bold;
-    text-align: center;
-    color: #EDE5F0;
-  }
-
-
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -268,19 +241,4 @@ and (max-device-width : 1024px) {
   p {
     font-size: 1em;
   }
-
-  .navbar {
-    width: 100%;
-    display: inline-block;
-    float: left;
-    margin: 5px 5px 0 5px;
-    list-style: none;
-    font-family: Candara, Optima;
-    font-size: 1em;
-    font-weight: bold;
-    text-align: center;
-    color: #EDE5F0;
-  }
-
-
 }

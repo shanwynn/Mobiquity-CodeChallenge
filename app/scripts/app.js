@@ -15,9 +15,13 @@ require('scripts/authentication');
 $(document).ready(function() {
 
 	// page is now ready, initialize the calendar...
-
+	// put your options and callbacks here
+	
 	$('#calendar').fullCalendar({
-		// put your options and callbacks here
+				dayClick: function() {
+				console.log('a day has been clicked!');
+			}
 	})
+
 
 });
