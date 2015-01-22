@@ -39,7 +39,7 @@ CC.FullCalendarComponent = Ember.Component.extend({
 		save: function() {
 			var newEvent = {eventTitle: this.eventTitle, start: this.newEvent, allDay: false};
 			this.theEvents.pushObject(newEvent);
-			this.$("#calendar").fullCalendar('renderEvent', newEvent, true);
+			this.$("#calendar").fullCalendar("renderEvent", newEvent, true);
 		}
 	}
 
