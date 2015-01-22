@@ -8,8 +8,7 @@ CC.NewEventController = Ember.Controller.extend({
 
             var eventRecord = this.store.createRecord('event', {
               eventTitle:    this.get('eventTitle'),
-              eventDate:     this.get('eventDate'),
-              eventPost:     this.get('eventPost'),
+              eventDate:     this.get('eventDate')
             });
             eventRecord.save();
             this.transitionToRoute('events');
